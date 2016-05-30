@@ -1,0 +1,82 @@
+/* 
+Template Name: ejuicecrafters llc 
+Author: Michael Goldberg
+Author URI: ejuicecrafters.com/
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700);
+
+.h1, .h2, .h3, .h4, .h5, .h6, .p, .b,  h1, h2, h3, h4, h5, h6, p, b { font-family: 'Source Sans Pro', sans-serif; }
+
+
+
+.vcenter {
+    margin: 0 auto; float: none; display: block; max-width: 100%; height: auto;  
+}
+
+/* navigation and navbar */
+
+.navbar {background-color: #FFF; color: #000 !important; font-family: 'Source Sans Pro', sans-serif; border: none !important; padding-top: 10px; padding-bottom: 10px; margin: 0 auto; width: 100%; text-align; left; margin-top: 25px;}
+
+.navbar-inverse .navbar-nav > li > a { font-family: 'Source Sans Pro', sans-serif; color: #000; text-transform: uppercase !important; font-weight: 400; border: none;   letter-spacing: 4px; text-align: left; margin-left: 0px; line-height: 1em; color:#0e0e0e; }
+
+.navbar-inverse .navbar-nav > li > a:hover { color: #f5c238 !important; }
+
+.collapse .navbar-collapse { padding-left: 0px !important; margin-left: 0px !important;}
+
+.navbar-toggle { background-color: #000;}
+
+/* end navigation & navbar */
+
+
+/**** logo and contact info *****/
+
+/**** MOBILE / SMALL media queries *****/
+@media (max-width: 767px) {
+  .logo-top img {
+    margin: 0 auto;
+	margin-top: 5px;
+  }
+  
+
+  .contact-info-top { margin-top: 1.5em; font-family: 'Source Sans Pro', sans-serif; text-transform: uppercase;}
+  
+  
+  .contact-info-top .contact-phone,
+  .contact-info-top .contact-email { 
+    text-align: center;
+	font-size: 1em;
+	font-weight: 600;
+  }
+  
+}
+
+/**** desktop media queries  *****/
+@media (min-width: 768px) {
+  .contact-info-top { 
+    margin-top: 1em;
+	text-align: right;
+	font-size: 14px; font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+  }
+  
+  
+  .nopad {padding-left: 0px !important;; margin-left: 0px !important;}
+  
+  .padded { padding-left: 30px !important;}
+  
+  
+  
+  
+  .contact-info-top .contact-phone { 
+font-size: 14px; font-weight: 400;
+  }
+  .contact-info-top .contact-email { 
+font-size: 14px; font-weight: 400; 
+  }
+}
+
+/* END logo & contact info */
+
